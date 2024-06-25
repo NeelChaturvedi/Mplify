@@ -40,6 +40,7 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from  './song4.mp3'
 
 export const assets = {
     bell_icon,
@@ -74,29 +75,29 @@ export const albumsData = [
         id:0,
         name: "Top 50 Global",
         image: img8,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#2a4365"
+        desc:"Explore the top 50 tracks worldwide",
+        bgColor:"#C8FFE8,#51877D"
     },
     {   
         id:1,
         name: "Top 50 India",
         image: img9,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#22543d"
+        desc:"Stay updated with the top 50 tracks in India",
+        bgColor:"#F9BA8D"
     },
     {   
         id:2,
         name: "Trending India",
         image: img10,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#742a2a"
+        desc:"Find all the trending tracks in India under one roof",
+        bgColor:"#FFA06A,#49908C"
     },
     {   
         id:3,
         name: "Trending Global",
         image: img16,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#44337a"
+        bgColor:"#FAFF07,#B0B303"
     },
     {   
         id:4,
@@ -110,42 +111,42 @@ export const albumsData = [
         name: "Happy Favorites",
         image: img15,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#744210"
+        bgColor:"#77BBD0"
     }
 ]
 
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "Tera Hone Laga Hoon",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        desc:"Atif Aslam, Alisha Chinai",
+        duration:"5:00"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Pehle Bhi Main",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        desc:"Vishal Mishra, Raj Shekhar",
+        duration:"4:10"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "O Sajni Re",
         image: img3,
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        duration:"2:51"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Humdum",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        file:song4,
+        desc:"Vishal Mishra, Raj Shekhar",
+        duration:"3:21"
     },
     {
         id:4,
